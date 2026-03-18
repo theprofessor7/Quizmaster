@@ -26,6 +26,9 @@ class MainWindow(QWidget):
         self.quiz_view = QuizView()
         self.result_view = ResultView()
         
+        self.stack.setStyleSheet("background-color: lightblue;")
+        self.start_view.setStyleSheet("background-color: lightblue")
+        self.result_view.setStyleSheet("background-color: lightblue")
         
         self.stack.addWidget(self.start_view)
         self.stack.addWidget(self.quiz_view)
@@ -41,8 +44,6 @@ class MainWindow(QWidget):
 
 app = QApplication(sys.argv)  # Crée l'application
 app.setStyle("Fusion")
-with open("Resources/style.qss", "r") as file:
-    app.setStyleSheet(file.read())
 window = MainWindow() # Crée la fenêtre
 model=QuizModel()
 controller=QuizController(model, window)
