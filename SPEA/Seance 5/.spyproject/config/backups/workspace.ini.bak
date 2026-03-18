@@ -1,0 +1,12 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+project_type = 'empty-project-type'
+recent_files = ['Model/quiz_model.py', 'main.py', 'Controller/quiz_controller.py', 'Resources/questions.json', 'View/quiz_view.py', 'View/start_view.py', 'View/result_view.py', 'Resources/style.qss', 'test.py']
+
+[main]
+version = 0.2.0
+recent_files = []
+

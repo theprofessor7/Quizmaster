@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Quelle est la capitale de la France ?",
+    "answers": ["Paris", "Lyon", "Marseille", "Bordeaux"],
+    "correct": "Paris"
+  },
+  {
+    "question": "Quel est le plus grand océan du monde ?",
+    "answers": ["Océan Atlantique", "Océan Indien", "Océan Pacifique", "Océan Arctique"],
+    "correct": "Océan Pacifique"
+  },
+  {
+    "question": "Qui a écrit 'Les Misérables' ?",
+    "answers": ["Émile Zola", "Victor Hugo", "Molière", "Albert Camus"],
+    "correct": "Victor Hugo"
+  },
+  {
+    "question": "Combien y a-t-il de continents sur Terre ?",
+    "answers": ["5", "6", "7", "8"],
+    "correct": "7"
+  },
+  {
+    "question": "Quel langage est principalement utilisé avec PyQt ?",
+    "answers": ["Java", "C#", "Python", "JavaScript"],
+    "correct": "Python"
+  }
+]
